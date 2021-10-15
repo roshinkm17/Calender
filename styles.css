@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Hammersmith One', sans-serif;
+}
+body{
+    width: 50%;
+    padding-top: 3rem;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.day {
+    transition: .2s ease;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.day-label {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    text-transform: capitalize;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+.show {
+    background-color: lightblue;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+}
+select {
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+option {
+    padding: .5rem 1rem;
+}
+#months {
+    margin-right: 2rem;
+}
+.buttons {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.sun {
+    background-color:rgb(199, 42, 42);
+    color: white;
+}
